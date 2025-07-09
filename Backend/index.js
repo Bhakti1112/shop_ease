@@ -8,7 +8,7 @@ app.use(express.json());
 
 // Replace <db_password> with your actual password
 mongoose.connect(
-  "mongodb+srv://bhaktimoteriya465:BhaKti465@cluster0.tqvwfur.mongodb.net/",
+  "mongodb+srv://name:pass@cluster0.tqvwfur.mongodb.net/",
   {
     useNewUrlParser: true,
     useUnifiedTopology: true,
